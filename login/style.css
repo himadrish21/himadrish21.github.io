@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    display: flex;
+    flex-direction: column;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logins {
+    background-color: grey;
+    width: 362px;
+    height: 365px;
+    display: block;
+    margin: 13% 10% 10% 38%;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    font-size: 20px;
+}
+
+.logins input {
+    font-size: 16px;
+    margin: 15px;
+    padding: 9px;
+    border-radius: 18px;
+    border: none;
+}
+
+#buttons {
+    width: 100px;
+    transition: 2s;
+
+}
+
+#buttons:hover {
+    background: #283048;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+tr,
+th,
+td {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: #efe9ae;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-radius: 10px;
+    margin: -4% 2% 2% 43%;
+}
